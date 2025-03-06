@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@tailwind utilities;
+
 
 ::-webkit-scrollbar {
     width: 7px;
@@ -60,9 +62,6 @@
     transform: translateY(0);
 }
 
-.toggle{
+.toggle {
     margin-top: 0;
 }
-
-
-
